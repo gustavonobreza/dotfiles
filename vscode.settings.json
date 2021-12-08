@@ -13,16 +13,14 @@
   // Terminal
   "terminal.integrated.fontFamily": "Cascadia Code, jetBrains Mono, consolas, monospace",
   "terminal.integrated.profiles.windows": {
-    // "Windows Terminal configurations" 
+    // "Windows Terminal configurations"
     "PowerShell": {
       "source": "PowerShell",
       "icon": "terminal-powershell"
     },
     "Windows Terminal": {
       "path": "C:\\Users\\Cliente\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
-      "args": [
-        "-d ."
-      ]
+      "args": ["-d ."]
     },
     "Command Prompt": {
       "path": [
@@ -121,7 +119,7 @@
     "kafka": "scripts",
     "mappers": "meta",
     "_shared": "shared",
-    "eslint-config": "tools",
+    "eslint-config": "tools"
   },
   "material-icon-theme.files.associations": {
     "ormconfig.json": "database",
