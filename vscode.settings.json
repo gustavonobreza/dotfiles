@@ -1,0 +1,159 @@
+{
+  "files.eol": "\n",
+  "editor.bracketPairColorization.enabled": true,
+  "files.autoSaveDelay": 1500,
+  // Telemetry
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  // Font
+  "editor.fontFamily": "Cascadia Code, Fira Code, jetBrains Mono, consolas, monospace",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "normal",
+  // Terminal
+  "terminal.integrated.fontFamily": "Cascadia Code, jetBrains Mono, consolas, monospace",
+  "terminal.integrated.profiles.windows": {
+    // "Windows Terminal configurations" 
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Windows Terminal": {
+      "path": "C:\\Users\\Cliente\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+      "args": [
+        "-d ."
+      ]
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 1.1,
+  // Editor
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorWidth": 2,
+  "editor.smoothScrolling": true,
+  "editor.mouseWheelScrollSensitivity": 1.5,
+  "editor.scrollBeyondLastLine": false,
+  "editor.mouseWheelZoom": true,
+  "editor.overviewRulerBorder": false,
+  "editor.padding.bottom": 150,
+  "editor.renderWhitespace": "none",
+  // Suggestions
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.codeActionsOnSave": null,
+  // Formatter
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "vsintellicode.features.python.deepLearning": "disabled",
+  "vsintellicode.java.completionsEnabled": false,
+  // Explorer
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  // Git
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "diffEditor.renderSideBySide": false,
+  // JS/TS
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "json.maxItemsComputed": 3000,
+  // Preferencies
+  "markdown.preview.typographer": true,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "javascript.suggest.completeFunctionCalls": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune"
+  },
+  "material-icon-theme.activeIconPack": "nest",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "GitHub Dark",
+  "quokka.compactMessageOutput": true,
+  "quokka.showCodeLensInOutputChannel": false,
+  "quokka.suppressGlyphMarginNotifications": true,
+  "quokka.startViewStatusBar": false,
+  "quokka.suppressExpirationNotifications": true,
+  "sqltools.useNodeRuntime": true,
+  "go.toolsManagement.autoUpdate": true,
+  "go.lintOnSave": "off"
+}
