@@ -1,1 +1,1 @@
-choco install node-js git python winrar vscode curl microsoft-windows-terminal php yarn golang make postman brave everything openssl dbeaver github-desktop docker-cli
+choco install node-js googlechrome git python winrar vscode curl microsoft-windows-terminal php yarn golang make postman brave everything openssl dbeaver github-desktop docker-cli
